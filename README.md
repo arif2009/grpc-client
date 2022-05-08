@@ -5,7 +5,7 @@ Sample codes for developing a REST back-end service.
 - [Docker](https://www.docker.com/products/docker-desktop)
 
 # How to run server
-- via docker compose (requires gcloud.json)
+- via docker compose
     ```
     docker compose up -d
     ```
