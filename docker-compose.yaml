@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  sample:
+    image: backend-sample
+    build: 
+        context: .
+        dockerfile: cmd/sample/Dockerfile
+    environment:
+      PORT: 4000
+      GOOGLE_APPLICATION_CREDENTIALS: /etc/keys/gcloud.json
+    ports:
+      - 4000:4000
+    volumes:
+      - ./gcloud.json:/etc/keys/gcloud.json
