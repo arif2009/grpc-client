@@ -9,7 +9,7 @@ Sample codes for developing a REST back-end service.
     ```
     docker compose up -d
     ```
-- directly (requires gcloud to be logged in)
+- directly
     ```
     go run cmd/sample/main.go
     ```
